@@ -7,5 +7,5 @@
 - [x] Utilizando DOM para pegar os elementos HTML e adicionar na página.
 
 ## Resultando final: 
-![](https://media.giphy.com/media/Xoz1bWLOwzY9AOfa6c/source.mp4)
+![](https://media.giphy.com/media/Xoz1bWLOwzY9AOfa6c/giphy.mp4)
 
