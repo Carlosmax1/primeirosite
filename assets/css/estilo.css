@@ -1,0 +1,48 @@
+.principal{
+    /* background: rgb(32, 32, 32); */
+    position: relative;
+}
+
+.texto{
+    font-size: 5em;
+    font-family: 'Source Code Pro', monospace;
+    position: absolute;
+    text-align: center;
+    color: rgb(29, 27, 27);
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 4px 4px rgba(24, 23, 23, 0.75);
+    left: 50%;
+}
+
+.texto__p{
+    font-size: 1.7em;
+    font-family: 'Source Code Pro', monospace;
+    position: absolute;
+    text-align: center;
+    color: rgb(29, 27, 27);
+    width: 100%;
+    top: 60%;
+    text-shadow: 0 4px 4px rgba(24, 23, 23, 0.75);
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.coding{
+    opacity: 16%;
+}
+
+.rodape{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+   
+}
+
+.icones{
+    width: 20px;
+    padding: 0.5em;
+    height: 20px;
+}
