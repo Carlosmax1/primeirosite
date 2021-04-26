@@ -8,11 +8,10 @@
     font-family: 'Source Code Pro', monospace;
     position: absolute;
     text-align: center;
-    color: rgb(29, 27, 27);
+    color: #10996b;
     width: 100%;
     top: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 4px 4px rgba(24, 23, 23, 0.75);
     left: 50%;
 }
 
@@ -36,7 +35,7 @@
 .rodape{
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 90%;
+    top: 100%;
     left: 50%;
    
 }

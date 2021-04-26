@@ -4,13 +4,12 @@ function sleep(ms) {
   
 async function percorre() {
 
-    var i;
+    var i, j, k;
     var conteudo_titulo;
     var conteudo_paragrafo;
     var main;
     var titulo;
     var paragrafo;
-
 
     main = document.querySelector('.principal');
     titulo = document.createElement('h1');
@@ -21,15 +20,19 @@ async function percorre() {
     paragrafo = document.createElement('p');
     paragrafo.classList.add('texto__p');
     main.appendChild(paragrafo);
-    conteudo_paragrafo = "Meu primeiro site.";
+    conteudo_paragrafo = "Meu primeiro site. ";
+
+    k = -1;
 
     for(i = 0; i < conteudo_paragrafo.length; i++){
-        if(i < conteudo_titulo.length){
+        j = parseInt(i / 2);
+        if(j < conteudo_titulo.length && j != k){
             await sleep(320);
-            titulo.innerHTML += conteudo_titulo[i];
+            k = j;
+            titulo.innerHTML += conteudo_titulo[j];
         }
         paragrafo.innerHTML += conteudo_paragrafo[i];
-        await sleep(160);
+
     }
 
 }
